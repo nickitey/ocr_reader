@@ -1,3 +1,3 @@
-python3 -m venv .venv
-call .venv\bin\activate
-pip install -r requirements.txt
+python -m venv .venv
+call ".venv\Scripts\activate.bat"
+python -m pip install easyocr 
